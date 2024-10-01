@@ -5,6 +5,7 @@ pascal's triangle
 
 
 def pascal_triangle(n):
+    """Implementation of pascal's triangle"""
     if n <= 0:
         return []
     if n == 1:
