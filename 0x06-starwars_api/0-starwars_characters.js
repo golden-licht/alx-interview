@@ -3,7 +3,6 @@ const request = require('request');
 
 const filmId = process.argv[2];
 const url = `https://swapi-api.alx-tools.com/api/films/${filmId}/`;
-console.log('Fetching character names...');
 
 request(url, (error, response, body) => {
   if (error) {
